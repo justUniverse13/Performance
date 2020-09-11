@@ -15,7 +15,7 @@ if [ "$input" = "1" ] ; then
 else
         echo " 2 =  git clone -b websockets https://github.com/justUniverse13/Performance"
         sudo git clone -b websockets https://github.com/justUniverse13/Performance
-
+fi
 #git clone -b websockets https://github.com/justUniverse13/Performance
 sleep 15 
 /mnt/jmeter/apache-jmeter-5.3/bin/jmeter.sh -n -t /Performance/scenario.jmx  -l /mnt/scenario.jtl
