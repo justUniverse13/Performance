@@ -9,7 +9,7 @@ mv JMeterWebSocketSamplers-1.2.8.jar /mnt/jmeter/apache-jmeter-5.3/lib
 
 echo " input  git clone ? >>>   1=   git  https://github.com/justUniverse13/Performance    2=  git clone -b websockets https://github.com/justUniverse13/Performance"
 read input
-if  $input == 1 ; then
+if [ "$input" = "1" ] ; then
         echo " 1 =  git  https://github.com/justUniverse13/Performance"
        sudo git  https://github.com/justUniverse13/Performance
 else
