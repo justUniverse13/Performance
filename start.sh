@@ -11,7 +11,7 @@ echo " input  git clone ? >>>   1=   git  https://github.com/justUniverse13/Perf
 read input
 if [ "$input" = "1" ] ; then
         echo " 1 =  git  https://github.com/justUniverse13/Performance"
-       sudo git  https://github.com/justUniverse13/Performance
+       sudo git clone https://github.com/justUniverse13/Performance
 else
         echo " 2 =  git clone -b websockets https://github.com/justUniverse13/Performance"
         sudo git clone -b websockets https://github.com/justUniverse13/Performance
