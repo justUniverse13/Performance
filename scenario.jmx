@@ -121,18 +121,6 @@
           <stringProp name="readTimeout">6000</stringProp>
         </eu.luminis.jmeter.wssampler.OpenWebSocketSampler>
         <hashTree/>
-        <eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler" testname="WebSocket Single Read Sampler" enabled="true">
-          <boolProp name="TLS">false</boolProp>
-          <stringProp name="server"></stringProp>
-          <stringProp name="port">80</stringProp>
-          <stringProp name="path"></stringProp>
-          <stringProp name="connectTimeout">20000</stringProp>
-          <stringProp name="dataType">Text</stringProp>
-          <boolProp name="createNewConnection">false</boolProp>
-          <stringProp name="readTimeout">6000</stringProp>
-          <boolProp name="optional">false</boolProp>
-        </eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler>
-        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.inthegame.io/userApi/user/register" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -301,18 +289,6 @@
             <stringProp name="connectTimeout">20000</stringProp>
             <stringProp name="readTimeout">6000</stringProp>
           </eu.luminis.jmeter.wssampler.OpenWebSocketSampler>
-          <hashTree/>
-          <eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler" testname="WebSocket Single Read Sampler" enabled="true">
-            <boolProp name="TLS">false</boolProp>
-            <stringProp name="server"></stringProp>
-            <stringProp name="port">80</stringProp>
-            <stringProp name="path"></stringProp>
-            <stringProp name="connectTimeout">20000</stringProp>
-            <stringProp name="dataType">Text</stringProp>
-            <boolProp name="createNewConnection">false</boolProp>
-            <stringProp name="readTimeout">6000</stringProp>
-            <boolProp name="optional">false</boolProp>
-          </eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler>
           <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.inthegame.io/userApi/user/register" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
