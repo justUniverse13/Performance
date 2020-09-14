@@ -888,10 +888,6 @@
               <stringProp name="RegexExtractor.match_number">-1</stringProp>
             </RegexExtractor>
             <hashTree/>
-            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-              <stringProp name="ConstantTimer.delay">20000</stringProp>
-            </ConstantTimer>
-            <hashTree/>
           </hashTree>
           <eu.luminis.jmeter.wssampler.OpenWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.OpenWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.OpenWebSocketSampler" testname="WebSocket Open Connection" enabled="true">
             <boolProp name="TLS">true</boolProp>
