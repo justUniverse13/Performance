@@ -98,7 +98,7 @@
         <stringProp name="variableName">random</stringProp>
       </RandomVariableConfig>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Poll" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Poll" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -157,12 +157,12 @@
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.inthegame.io/userApi/poll/answer_new/5f4d147452beec5fd635e8d1" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.inthegame.io/userApi/poll/answer_new/5f57316a2849b862f4512527" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;answer&quot;:&quot;YES&quot;,&quot;channelId&quot;:&quot;automationtesting&quot;,&quot;userToken&quot;:&quot;${token1_1}&quot;,&quot;broadcasterName&quot;:&quot;automationtesting&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;answer&quot;:&quot;Maccabi&quot;,&quot;channelId&quot;:&quot;leonidpage&quot;,&quot;userToken&quot;:&quot;${token1_1}&quot;,&quot;broadcasterName&quot;:&quot;leonidtest&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -174,7 +174,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">https://api.inthegame.io/userApi/poll/answer_new/5f4d147452beec5fd635e8d1</stringProp>
+          <stringProp name="HTTPSampler.path">https://api.inthegame.io/userApi/poll/answer_new/5f57316a2849b862f4512527</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -269,7 +269,7 @@
         </RandomVariableConfig>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Trivia_Question_Load_test" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Trivia_Question_Load_test" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
