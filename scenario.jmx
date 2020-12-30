@@ -148,7 +148,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">https://api-dev.inthegame.io/userApi/user/register</stringProp>
+          <stringProp name="HTTPSampler.path">https://api.inthegame.io/userApi/user/register</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -198,7 +198,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">https://api-dev.inthegame.io/userApi/poll/answer_new/5feaf99feb3edf2d8d38b782</stringProp>
+          <stringProp name="HTTPSampler.path">https://api.inthegame.io/userApi/poll/answer_new/5feaf99feb3edf2d8d38b782</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
