@@ -293,7 +293,7 @@
         </RandomVariableConfig>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Trivia_Question_Load_test" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Trivia_Question_Load_test" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -527,7 +527,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="login" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="login" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -546,7 +546,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{“data”:{“token”:“d58ce685d5c1200c87f3edb20a7c99fe”,“streamerName”:“leonidpage”,“userToken”:“d58ce685d5c1200c87f3edb20a7c99fe”,“broadcasterName”:“automationtesting”}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;userToken&quot;:&quot;${token}&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -557,7 +557,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">https://api.inthegame.io/userApi/user/login_by_token</stringProp>
+          <stringProp name="HTTPSampler.path">https://api-dev.inthegame.io/userApi/user/login_by_token</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
